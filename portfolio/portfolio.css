@@ -13,17 +13,6 @@ html, body {
     font-family: 'General Sans';
 }
 
-@media (min-width:640px){
-    .first{
-        flex-direction: row;
-    }
-}
-@media (max-width:640px){
-    .first{
-        flex-direction: column;
-    }
-}
-
 #main{
     width: 100% ;
     height: auto;
@@ -382,14 +371,3 @@ html, body {
     display: flex;
     gap: 30px;
 }
-
-/* @media (min-width:640px){
-    #main{
-        flex-direction: row;
-    }
-}
-@media (max-width:640px){
-    #main{
-        flex-direction: column;
-    }
-} */
